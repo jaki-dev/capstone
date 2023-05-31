@@ -4,18 +4,18 @@ import logo from "../Assets/Logo.svg";
 
 const Footer = () => {
   return (
-    <footer style={footerStyle}>
-      <div style={contentStyle}>
-        <div style={logoStyle}>
+    <footer>
+        <div className="footerItem">
           <img src={logo} alt="Logo" />
         </div>
-        <Nav />
-
-        <div style={contactStyle}>
+        <div className="footerItem">
+          <Nav />
+        </div>
+        <div className="footerItem">
           <p>Contact us: info@example.com</p>
           <p>Phone: 123-456-7890</p>
         </div>
-        <div style={socialMediaStyle}>
+        <div className="footerItem" >
           <ul>
             <li>
               <a href="https://www.facebook.com">facebook</a>
@@ -28,40 +28,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </div>
     </footer>
   );
-};
-
-// Styles
-const footerStyle = {
-  background: "#EDEFEE",
-
-  padding: "20px",
-  marginTop: "auto",
-};
-
-const contentStyle = {
-  display: "flex",
-  justifyContent: "space-between",
-  alignItems: "center",
-};
-
-const logoStyle = {
-  marginRight: "20px",
-};
-
-const navigationStyle = {
-  marginRight: "20px",
-};
-
-const contactStyle = {
-  marginRight: "20px",
-};
-
-const socialMediaStyle = {
-  display: "flex",
-  alignItems: "center",
 };
 
 export default Footer;

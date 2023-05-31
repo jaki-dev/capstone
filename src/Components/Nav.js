@@ -1,26 +1,38 @@
 const Nav = () => {
   return (
     <>
-      <ul>
-        <li>
-          <a>Home</a>
-        </li>
-        <li>
-          <a>About</a>
-        </li>
-        <li>
-          <a>Menu</a>
-        </li>
-        <li>
-          <a>Reseration</a>
-        </li>
-        <li>
-          <a>Order Online</a>
-        </li>
-        <li>
-          <a>Login</a>
-        </li>
-      </ul>
+      <ul >
+          <li >
+            <a href="/" >
+              Home
+            </a>
+          </li>
+          <li >
+            <a href="/about" >
+              About
+            </a>
+          </li>
+          <li >
+            <a href="/menu" >
+              Menu
+            </a>
+          </li>
+          <li >
+            <a href="/reservations" >
+              Reservations
+            </a>
+          </li>
+          <li >
+            <a href="/order" >
+              Order Online
+            </a>
+          </li>
+          <li>
+            <a href="/login" >
+              Login
+            </a>
+          </li>
+        </ul>
     </>
   );
 };

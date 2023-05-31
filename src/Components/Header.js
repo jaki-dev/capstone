@@ -1,76 +1,34 @@
 import logo from "../Assets/Logo.svg";
 
+
 const Header = () => {
   return (
-    <header style={headerStyle}>
-      <div className="logo" style={logoStyle}>
+    <header>
+      <div className="logo">
         <img src={logo} alt="Logo" />
       </div>
-      <nav>
-        <ul style={navStyle}>
-          <li style={navItemStyle}>
-            <a href="/" style={linkStyle}>
+      <nav className="headerNav">
+      <a href="/" >
               Home
             </a>
-          </li>
-          <li style={navItemStyle}>
-            <a href="/about" style={linkStyle}>
+            <a href="/about" >
               About
             </a>
-          </li>
-          <li style={navItemStyle}>
-            <a href="/menu" style={linkStyle}>
+            <a href="/menu" >
               Menu
             </a>
-          </li>
-          <li style={navItemStyle}>
-            <a href="/reservations" style={linkStyle}>
+            <a href="/reservations" >
               Reservations
             </a>
-          </li>
-          <li style={navItemStyle}>
-            <a href="/order" style={linkStyle}>
+            <a href="/order" >
               Order Online
             </a>
-          </li>
-          <li style={navItemStyle}>
-            <a href="/login" style={linkStyle}>
+            <a href="/login" >
               Login
             </a>
-          </li>
-        </ul>
       </nav>
     </header>
   );
 };
 
 export default Header;
-
-const headerStyle = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-
-  background: "#f2f2f2",
-};
-
-const logoStyle = {
-  marginRight: "20px",
-};
-
-const navStyle = {
-  listStyle: "none",
-  display: "flex",
-  alignItems: "center",
-};
-
-const navItemStyle = {
-  textTransform: "uppercase",
-  padding: "20px",
-  fontWeight: "bold",
-};
-const linkStyle = {
-  color: "black",
-  fontFamily: "Marakazi Text",
-  textDecoration: "none",
-};
