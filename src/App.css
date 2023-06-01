@@ -9,18 +9,19 @@
   }
   Header {
     grid-area: header;
-    background-color: rgb(187, 185, 183);
+    background-color: #edefee;
     display: grid;
-    grid-template-columns: 6fr 4fr;
+    grid-template-columns: 2fr 1fr;
     padding: 20px;
   }
   .headerNav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
     justify-items: center;
     align-content: center;
   }
-  Main {
+  main {
     grid-area: main;
     padding: 20px;
     min-height: 90vh;
@@ -33,7 +34,7 @@
     padding-right: 40px;
     justify-items: center;
     align-items: center;
-    background-color: rgb(187, 185, 183);
+    background-color: #edefee;
   }
 }
 
@@ -53,7 +54,7 @@
   }
   Header {
     grid-area: header;
-    background-color: rgb(187, 185, 183);
+    background-color: #edefee;
     display: grid;
     grid-template-rows: auto auto;
     padding: 10px;
@@ -78,7 +79,7 @@
     padding: 10px;
     justify-items: center;
     display: grid;
-    background-color: rgb(187, 185, 183);
+    background-color: #edefee;
     text-align: center;
   }
   .footerItem {
