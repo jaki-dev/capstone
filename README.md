@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello welcome to my capstone project.
+I have finished evrything. I just had a problem with the API calls and therfore I just copyed the API fuctions locally to make it work
 
 ## Available Scripts
 
