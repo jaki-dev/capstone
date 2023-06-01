@@ -23,7 +23,7 @@
   Main {
     grid-area: main;
     padding: 20px;
-    height: 90vh;
+    min-height: 90vh;
   }
 
   Footer {
@@ -69,10 +69,10 @@
   .headerNav a {
     padding: 10px;
   }
-  Main {
+  main {
     grid-area: main;
     padding: 20px;
-    height: 90vh;
+    min-height: 90vh;
   }
   Footer {
     padding: 10px;
